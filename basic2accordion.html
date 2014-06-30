@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>basic2 accordion and Tab</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http:/resources/demos/style.css">
+  <script>
+  $(document).ready(function(){
+     $( "#accordion" ).accordion();
+     $( "#tabs" ).tabs();   
+  });
+
+  </script>
+</head>
+<body>
+ 
+<div id="accordion">
+  <h3>Week 1</h3>
+  <div>
+    <p>
+    HTML/ CSS
+    </p>
+  </div>
+  <h3>Week 2</h3>
+  <div>
+    <p>
+    jQuery, Database & SQL
+    </p>
+  </div>
+  <h3>Week 3</h3>
+  <div>
+    <p>
+    abc
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Week 4</h3>
+  <div>
+    <p>
+   abc
+    </p>
+    <p>
+   abc
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Day 1</a></li>
+    <li><a href="#tabs-2">Day 2</a></li>
+    <li><a href="#tabs-3">Day 3</a></li>
+  </ul>
+
+  <div id="tabs-1">
+    <p>jQuery Basic</p>
+  </div>
+  <div id="tabs-2">
+    <p>jQuery Basic 2</p>
+  </div>
+  <div id="tabs-3">
+    <p>jQuery 3</p>
+    <p>sortable Ninja</p>
+  </div>
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>jQuery UI Accordion - Default functionality</title>
+  <!-- ThemeRoller -> Gallery, to style the theme -->
+  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.4/themes/start/jquery-ui.css">
+
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <script type = "text/javascript">
+  	$(document).ready(function(){
+  		// apply built-in function from jquery UI library -> then call it on div #accordion
+  		$('#my_journal').accordion();
+  		$( "#datepicker" ).datepicker();
+  	});
+   
+
+  </script>
+  <style type="text/css">
+  	#my_journal {
+  		width: 500px;
+  	}
+
+  </style>
+
+</head>
+<body>
+ 
+<div id="my_journal">
+	  <h3>Section 1</h3>
+	  <div>
+	    <p>
+	    	Select the date please!
+	    </p>
+
+	    <!-- copy from jquery site -> date picker -->
+	    <input type="text" id="datepicker">
+
+	  </div>
+	  <h3>Section 2</h3>
+	  <div>
+	    <p>
+	    	Latin gets boring!
+	    </p>
+	  </div>
+	  <h3>Section 3</h3>
+	  <div>
+	    <p>
+	    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+	    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+	    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+	    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+	    </p>
+	    <ul>
+	      <li>List item one</li>
+	      <li>List item two</li>
+	      <li>List item three</li>
+	    </ul>
+	  </div>
+	  <h3>Section 4</h3>
+	  <div>
+	    <p>
+	    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+	    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+	    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+	    mauris vel est.
+	    </p>
+	    <p>
+	    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+	    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+	    inceptos himenaeos.
+	    </p>
+	  </div>
+</div>
+ 
+ 
+</body>
+</html>
